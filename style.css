@@ -1,0 +1,113 @@
+/* Apply a global font family and background color */
+body {
+    font-family: Arial, sans-serif; /* Set a readable font for the entire website */
+    background-color: #f4f4f4; /* Light gray background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark background for the header */
+    color: #fff; /* White text color */
+    padding: 15px 0; /* Padding for the header */
+    text-align: center; /* Center align the text in the header */
+}
+
+header nav ul {
+    list-style-type: none; /* Remove bullet points from the navigation */
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Space between navigation items */
+}
+
+header nav ul li a {
+    color: white; /* White text color for the links */
+    text-decoration: none; /* Remove underline from the links */
+}
+
+/* Blog post titles */
+h1,
+h2 {
+    font-family: "Arial", sans-serif;
+    color: #333; /* Dark text color for titles */
+    text-align: center; /* Center align the titles */
+}
+
+/* Blog post styling */
+article {
+    background-color: #fff; /* White background for blog posts */
+    border: 1px solid #ddd; /* Light gray border around each post */
+    margin: 20px auto; /* Center the posts on the page */
+    padding: 20px; /* Padding around the content */
+    width: 80%; /* Make the posts take up 80% of the width */
+    box-sizing: border-box; /* Include padding and borders in width/height calculations */
+}
+
+article img {
+    display: block; /* Ensure the image doesn't have inline spacing */
+    margin: 0 auto; /* Center align the image */
+    max-width: 100%; /* Ensure images don't overflow */
+}
+
+/* Table styling for contact information */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 10px; /* Padding inside table cells */
+    text-align: left; /* Left align the text */
+    border: 1px solid #ddd; /* Light gray border for table cells */
+}
+
+table th {
+    background-color: #333; /* Dark background for the header row */
+    color: white; /* White text color for the header */
+}
+
+/* Form styling */
+form {
+    background-color: #fff; /* White background for the form */
+    border: 1px solid #ddd; /* Light gray border around the form */
+    margin-top: 20px;
+    padding: 20px;
+    width: 50%; /* Make the form take up 50% of the page width */
+    box-sizing: border-box; /* Include padding and borders in width/height calculations */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input,
+form textarea {
+    width: 100%; /* Make the form elements take up full width */
+    padding: 10px; /* Padding inside form elements */
+    margin-bottom: 10px; /* Space below each element */
+    border: 1px solid #ddd; /* Light gray border for form fields */
+    box-sizing: border-box; /* Include padding and borders in width/height calculations */
+}
+
+form input[type="submit"] {
+    background-color: #333; /* Dark background color for submit button */
+    color: white; /* White text color for the submit button */
+    cursor: pointer; /* Change the cursor to a pointer */
+}
+
+form input[type="submit"]:hover {
+    background-color: #555; /* Darker background when hovering */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark background color for the footer */
+    color: white; /* White text color */
+    text-align: center; /* Center align the footer text */
+    padding: 15px 0; /* Padding for the footer */
+    margin-top: 20px; /* Space above the footer */
+}
